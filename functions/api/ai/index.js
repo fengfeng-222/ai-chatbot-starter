@@ -1,3 +1,3 @@
-export function onRequestGet(context) {
-  return new Response(`User id is ${context.params.id}`);
+export function onRequest(context) {
+  return new Response(`User id is Tom`);
 }
